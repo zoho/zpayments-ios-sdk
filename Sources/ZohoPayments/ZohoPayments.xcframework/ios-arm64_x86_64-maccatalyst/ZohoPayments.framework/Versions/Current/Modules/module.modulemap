@@ -1,0 +1,6 @@
+framework module ZohoPayments {
+  umbrella header "ZohoPayments.h"
+  export *
+
+  module * { export * }
+}

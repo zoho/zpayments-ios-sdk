@@ -1,0 +1,1100 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ZohoPayments",
+    "printedName": "ZohoPayments",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "ZohoPaymentsDomain",
+        "printedName": "ZohoPaymentsDomain",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "US",
+            "printedName": "US",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZohoPayments.ZohoPaymentsDomain.Type) -> ZohoPayments.ZohoPaymentsDomain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZohoPaymentsDomain",
+                    "printedName": "ZohoPayments.ZohoPaymentsDomain",
+                    "usr": "s:12ZohoPayments0aB6DomainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZohoPayments.ZohoPaymentsDomain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZohoPaymentsDomain",
+                        "printedName": "ZohoPayments.ZohoPaymentsDomain",
+                        "usr": "s:12ZohoPayments0aB6DomainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ZohoPayments0aB6DomainO2USyA2CmF",
+            "mangledName": "$s12ZohoPayments0aB6DomainO2USyA2CmF",
+            "moduleName": "ZohoPayments"
+          },
+          {
+            "kind": "Var",
+            "name": "IN",
+            "printedName": "IN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZohoPayments.ZohoPaymentsDomain.Type) -> ZohoPayments.ZohoPaymentsDomain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZohoPaymentsDomain",
+                    "printedName": "ZohoPayments.ZohoPaymentsDomain",
+                    "usr": "s:12ZohoPayments0aB6DomainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZohoPayments.ZohoPaymentsDomain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZohoPaymentsDomain",
+                        "printedName": "ZohoPayments.ZohoPaymentsDomain",
+                        "usr": "s:12ZohoPayments0aB6DomainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ZohoPayments0aB6DomainO2INyA2CmF",
+            "mangledName": "$s12ZohoPayments0aB6DomainO2INyA2CmF",
+            "moduleName": "ZohoPayments"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZohoPaymentsDomain",
+                "printedName": "ZohoPayments.ZohoPaymentsDomain",
+                "usr": "s:12ZohoPayments0aB6DomainO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZohoPaymentsDomain",
+                "printedName": "ZohoPayments.ZohoPaymentsDomain",
+                "usr": "s:12ZohoPayments0aB6DomainO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments0aB6DomainO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12ZohoPayments0aB6DomainO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZohoPayments",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ZohoPayments0aB6DomainO9hashValueSivp",
+            "mangledName": "$s12ZohoPayments0aB6DomainO9hashValueSivp",
+            "moduleName": "ZohoPayments",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ZohoPayments0aB6DomainO9hashValueSivg",
+                "mangledName": "$s12ZohoPayments0aB6DomainO9hashValueSivg",
+                "moduleName": "ZohoPayments",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments0aB6DomainO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12ZohoPayments0aB6DomainO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZohoPayments",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12ZohoPayments0aB6DomainO",
+        "mangledName": "$s12ZohoPayments0aB6DomainO",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckoutOptions",
+        "printedName": "CheckoutOptions",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(paymentSessionId:description:invoiceNumber:referenceNumber:name:email:phone:paymentMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CheckoutOptions",
+                "printedName": "ZohoPayments.CheckoutOptions",
+                "usr": "s:12ZohoPayments15CheckoutOptionsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ZohoPayments.PaymentMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "ZohoPayments.PaymentMethod",
+                    "usr": "s:12ZohoPayments13PaymentMethodO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ZohoPayments15CheckoutOptionsC16paymentSessionId11description13invoiceNumber09referenceJ04name5email5phone0E6MethodACSS_S6SAA07PaymentO0OSgtcfc",
+            "mangledName": "$s12ZohoPayments15CheckoutOptionsC16paymentSessionId11description13invoiceNumber09referenceJ04name5email5phone0E6MethodACSS_S6SAA07PaymentO0OSgtcfc",
+            "moduleName": "ZohoPayments",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ZohoPayments15CheckoutOptionsC",
+        "mangledName": "$s12ZohoPayments15CheckoutOptionsC",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentMethod",
+        "printedName": "PaymentMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "card",
+            "printedName": "card",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZohoPayments.PaymentMethod.Type) -> ZohoPayments.PaymentMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "ZohoPayments.PaymentMethod",
+                    "usr": "s:12ZohoPayments13PaymentMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZohoPayments.PaymentMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMethod",
+                        "printedName": "ZohoPayments.PaymentMethod",
+                        "usr": "s:12ZohoPayments13PaymentMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ZohoPayments13PaymentMethodO4cardyA2CmF",
+            "mangledName": "$s12ZohoPayments13PaymentMethodO4cardyA2CmF",
+            "moduleName": "ZohoPayments",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "netBanking",
+            "printedName": "netBanking",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZohoPayments.PaymentMethod.Type) -> ZohoPayments.PaymentMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "ZohoPayments.PaymentMethod",
+                    "usr": "s:12ZohoPayments13PaymentMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZohoPayments.PaymentMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMethod",
+                        "printedName": "ZohoPayments.PaymentMethod",
+                        "usr": "s:12ZohoPayments13PaymentMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ZohoPayments13PaymentMethodO10netBankingyA2CmF",
+            "mangledName": "$s12ZohoPayments13PaymentMethodO10netBankingyA2CmF",
+            "moduleName": "ZohoPayments",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "upi",
+            "printedName": "upi",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZohoPayments.PaymentMethod.Type) -> ZohoPayments.PaymentMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethod",
+                    "printedName": "ZohoPayments.PaymentMethod",
+                    "usr": "s:12ZohoPayments13PaymentMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZohoPayments.PaymentMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentMethod",
+                        "printedName": "ZohoPayments.PaymentMethod",
+                        "usr": "s:12ZohoPayments13PaymentMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ZohoPayments13PaymentMethodO3upiyA2CmF",
+            "mangledName": "$s12ZohoPayments13PaymentMethodO3upiyA2CmF",
+            "moduleName": "ZohoPayments",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethod",
+                "printedName": "ZohoPayments.PaymentMethod",
+                "usr": "s:12ZohoPayments13PaymentMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethod",
+                "printedName": "ZohoPayments.PaymentMethod",
+                "usr": "s:12ZohoPayments13PaymentMethodO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments13PaymentMethodO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12ZohoPayments13PaymentMethodO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZohoPayments",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ZohoPayments13PaymentMethodO9hashValueSivp",
+            "mangledName": "$s12ZohoPayments13PaymentMethodO9hashValueSivp",
+            "moduleName": "ZohoPayments",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ZohoPayments13PaymentMethodO9hashValueSivg",
+                "mangledName": "$s12ZohoPayments13PaymentMethodO9hashValueSivg",
+                "moduleName": "ZohoPayments",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments13PaymentMethodO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12ZohoPayments13PaymentMethodO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZohoPayments",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12ZohoPayments13PaymentMethodO",
+        "mangledName": "$s12ZohoPayments13PaymentMethodO",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZohoPaymentsCheckout",
+        "printedName": "ZohoPaymentsCheckout",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:accountId:domain:withCheckoutDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZohoPaymentsCheckout",
+                "printedName": "ZohoPayments.ZohoPaymentsCheckout",
+                "usr": "s:12ZohoPayments0aB8CheckoutC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZohoPaymentsDomain",
+                "printedName": "ZohoPayments.ZohoPaymentsDomain",
+                "usr": "s:12ZohoPayments0aB6DomainO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZohoPaymentsCheckoutDelegate",
+                "printedName": "any ZohoPayments.ZohoPaymentsCheckoutDelegate",
+                "usr": "s:12ZohoPayments0aB16CheckoutDelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ZohoPayments0aB8CheckoutC6apiKey9accountId6domain04withC8DelegateACSS_SSAA0aB6DomainOAA0abcJ0_ptcfc",
+            "mangledName": "$s12ZohoPayments0aB8CheckoutC6apiKey9accountId6domain04withC8DelegateACSS_SSAA0aB6DomainOAA0abcJ0_ptcfc",
+            "moduleName": "ZohoPayments",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(on:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CheckoutOptions",
+                "printedName": "ZohoPayments.CheckoutOptions",
+                "usr": "s:12ZohoPayments15CheckoutOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments0aB8CheckoutC4open2on4withySo16UIViewControllerC_AA0C7OptionsCtF",
+            "mangledName": "$s12ZohoPayments0aB8CheckoutC4open2on4withySo16UIViewControllerC_AA0C7OptionsCtF",
+            "moduleName": "ZohoPayments",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "open",
+            "printedName": "open(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CheckoutOptions",
+                "printedName": "ZohoPayments.CheckoutOptions",
+                "usr": "s:12ZohoPayments15CheckoutOptionsC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments0aB8CheckoutC4open4withyAA0C7OptionsC_tF",
+            "mangledName": "$s12ZohoPayments0aB8CheckoutC4open4withyAA0C7OptionsC_tF",
+            "moduleName": "ZohoPayments",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ZohoPayments0aB8CheckoutC",
+        "mangledName": "$s12ZohoPayments0aB8CheckoutC",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZohoPaymentsCheckoutDelegate",
+        "printedName": "ZohoPaymentsCheckoutDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onPaymentSuccess",
+            "printedName": "onPaymentSuccess(paymentId:signature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments0aB16CheckoutDelegateP16onPaymentSuccess9paymentId9signatureySS_SStF",
+            "mangledName": "$s12ZohoPayments0aB16CheckoutDelegateP16onPaymentSuccess9paymentId9signatureySS_SStF",
+            "moduleName": "ZohoPayments",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZohoPayments.ZohoPaymentsCheckoutDelegate>",
+            "sugared_genericSig": "<Self where Self : ZohoPayments.ZohoPaymentsCheckoutDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaymentFailure",
+            "printedName": "onPaymentFailure(code:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ZohoPayments0aB16CheckoutDelegateP16onPaymentFailure4code7messageySS_SStF",
+            "mangledName": "$s12ZohoPayments0aB16CheckoutDelegateP16onPaymentFailure4code7messageySS_SStF",
+            "moduleName": "ZohoPayments",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZohoPayments.ZohoPaymentsCheckoutDelegate>",
+            "sugared_genericSig": "<Self where Self : ZohoPayments.ZohoPaymentsCheckoutDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12ZohoPayments0aB16CheckoutDelegateP",
+        "mangledName": "$s12ZohoPayments0aB16CheckoutDelegateP",
+        "moduleName": "ZohoPayments",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 22,
+      "value": "\"https:\/\/pay.zoho.in\/\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 19,
+      "value": "\"closePopupHandler\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 14,
+      "value": "\"Zoho-zapikey\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Constants.swift",
+      "kind": "Array",
+      "offset": 342,
+      "length": 81,
+      "value": "[\"gpay:\/\/\", \"paytmmp:\/\/\", \"phonepe:\/\/\", \"hdfcbanknb:\/\/\", \"aunb:\/\/\", \"imobileappnb:\/\/\"]"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 17,
+      "value": "\"payment_success\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 17,
+      "value": "\"payment_failure\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 13,
+      "value": "\"close_popup\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/SDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/SDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/SDKVersion.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 34,
+      "value": "\"api\/v1\/public\/mobile\/ios\/version\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/CheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1300,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/CheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1328,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/CheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1358,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/CheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1377,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/CheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/CheckoutOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/Extension.swift",
+      "kind": "BooleanLiteral",
+      "offset": 941,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/ZohoPayWebViewController.swift",
+      "kind": "Array",
+      "offset": 549,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/ZohoPayWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1210,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/ZohoPayWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1271,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/SecondWindowViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 218,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbuild\/WH_DIR\/Sep_16_2025\/ZOHOPAY_IOS_SDK\/11508436\/MACSRC\/native\/ZohoPayments\/SecondWindowViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 630,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

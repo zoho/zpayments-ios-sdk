@@ -1,0 +1,51 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZohoPayments
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import WebKit
+@_exported import ZohoPayments
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os
+public enum ZohoPaymentsDomain {
+  case US
+  case IN
+  public static func == (a: ZohoPayments.ZohoPaymentsDomain, b: ZohoPayments.ZohoPaymentsDomain) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class CheckoutOptions {
+  public init(paymentSessionId: Swift.String, description: Swift.String = "", invoiceNumber: Swift.String = "", referenceNumber: Swift.String = "", name: Swift.String = "", email: Swift.String = "", phone: Swift.String = "", paymentMethod: ZohoPayments.PaymentMethod? = nil)
+  @objc deinit
+}
+public enum PaymentMethod {
+  case card
+  case netBanking
+  case upi
+  public static func == (a: ZohoPayments.PaymentMethod, b: ZohoPayments.PaymentMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class ZohoPaymentsCheckout {
+  public init(apiKey: Swift.String, accountId: Swift.String, domain: ZohoPayments.ZohoPaymentsDomain, withCheckoutDelegate delegate: any ZohoPayments.ZohoPaymentsCheckoutDelegate)
+  public func open(on viewController: UIKit.UIViewController, with options: ZohoPayments.CheckoutOptions)
+  public func open(with options: ZohoPayments.CheckoutOptions)
+  @objc deinit
+}
+public protocol ZohoPaymentsCheckoutDelegate {
+  func onPaymentSuccess(paymentId: Swift.String, signature: Swift.String)
+  func onPaymentFailure(code: Swift.String, message: Swift.String)
+}
+extension ZohoPayments.ZohoPaymentsDomain : Swift.Equatable {}
+extension ZohoPayments.ZohoPaymentsDomain : Swift.Hashable {}
+extension ZohoPayments.PaymentMethod : Swift.Equatable {}
+extension ZohoPayments.PaymentMethod : Swift.Hashable {}
