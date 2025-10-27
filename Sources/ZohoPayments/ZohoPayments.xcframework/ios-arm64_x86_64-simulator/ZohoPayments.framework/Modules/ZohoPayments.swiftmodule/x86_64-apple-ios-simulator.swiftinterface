@@ -12,6 +12,15 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+public enum ZohoPaymentsEnvironment {
+  case live
+  case sandbox
+  public static func == (a: ZohoPayments.ZohoPaymentsEnvironment, b: ZohoPayments.ZohoPaymentsEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum ZohoPaymentsDomain {
   case US
   case IN
@@ -36,7 +45,7 @@ public enum PaymentMethod {
   }
 }
 public class ZohoPaymentsCheckout {
-  public init(apiKey: Swift.String, accountId: Swift.String, domain: ZohoPayments.ZohoPaymentsDomain, withCheckoutDelegate delegate: any ZohoPayments.ZohoPaymentsCheckoutDelegate)
+  public init(apiKey: Swift.String, accountId: Swift.String, domain: ZohoPayments.ZohoPaymentsDomain, environment: ZohoPayments.ZohoPaymentsEnvironment = .live, withCheckoutDelegate delegate: any ZohoPayments.ZohoPaymentsCheckoutDelegate)
   public func open(on viewController: UIKit.UIViewController, with options: ZohoPayments.CheckoutOptions)
   public func open(with options: ZohoPayments.CheckoutOptions)
   @objc deinit
@@ -45,6 +54,8 @@ public protocol ZohoPaymentsCheckoutDelegate {
   func onPaymentSuccess(paymentId: Swift.String, signature: Swift.String)
   func onPaymentFailure(code: Swift.String, message: Swift.String)
 }
+extension ZohoPayments.ZohoPaymentsEnvironment : Swift.Equatable {}
+extension ZohoPayments.ZohoPaymentsEnvironment : Swift.Hashable {}
 extension ZohoPayments.ZohoPaymentsDomain : Swift.Equatable {}
 extension ZohoPayments.ZohoPaymentsDomain : Swift.Hashable {}
 extension ZohoPayments.PaymentMethod : Swift.Equatable {}
