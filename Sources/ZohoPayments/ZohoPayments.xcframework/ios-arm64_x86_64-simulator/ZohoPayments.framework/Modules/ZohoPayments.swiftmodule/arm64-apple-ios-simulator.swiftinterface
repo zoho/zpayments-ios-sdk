@@ -12,6 +12,15 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
+public struct PaymentSuccessObject {
+  public var paymentId: Swift.String
+  public var mandateId: Swift.String?
+  public var signature: Swift.String
+}
+public struct PaymentFailureObject {
+  public var code: Swift.String
+  public var message: Swift.String
+}
 public enum ZohoPaymentsEnvironment {
   case live
   case sandbox
@@ -51,8 +60,8 @@ public class ZohoPaymentsCheckout {
   @objc deinit
 }
 public protocol ZohoPaymentsCheckoutDelegate {
-  func onPaymentSuccess(paymentId: Swift.String, signature: Swift.String)
-  func onPaymentFailure(code: Swift.String, message: Swift.String)
+  func onPaymentSuccess(object: ZohoPayments.PaymentSuccessObject)
+  func onPaymentFailure(object: ZohoPayments.PaymentFailureObject)
 }
 extension ZohoPayments.ZohoPaymentsEnvironment : Swift.Equatable {}
 extension ZohoPayments.ZohoPaymentsEnvironment : Swift.Hashable {}
