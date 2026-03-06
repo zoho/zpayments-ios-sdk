@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZohoPayments-pod'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Native iOS SDK for integrating the Zoho Payments checkout widget.'
   s.description      = <<-DESC
 The Zoho Payments iOS SDK lets you embed the Zoho Payments checkout UI in your iOS app.
