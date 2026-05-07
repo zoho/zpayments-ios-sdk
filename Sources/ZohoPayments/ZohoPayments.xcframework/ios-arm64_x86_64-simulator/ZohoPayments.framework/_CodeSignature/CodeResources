@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uQE8NzTm9YgPr78gfVdGKvRwdJc=
+		xi3vnyDJTF5IQ7UNgvU1L5l0U2s=
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uZp+JB5PLORZ1oZKaIHk6oaugEk=
+		3+H0sZGYFbLh+3sg+Z5OZli3h7s=
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uQE8NzTm9YgPr78gfVdGKvRwdJc=
+		xi3vnyDJTF5IQ7UNgvU1L5l0U2s=
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xxYoV0jcrjcjG34N/GVHf1qM+WY=
+		s3qJ89h7fh9iDE25AsYmKXugvOM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QiusHhaW5PoE7mLCHFUU22kAvYgVz0PAEZBnm13J+xw=
+			rCdWNKiNcj6Muy60rwLRDjAVVJt2kJyn8TazoKx4aZc=
 			</data>
 		</dict>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NRrUEnJW3z8KR5KxWCk3vJuXEN5DaZ5ReoietTQ4fN4=
+			3bbju0dqEbnaEwd9iLR5CVZlhGHFYDNEqkmVKlqLHzE=
 			</data>
 		</dict>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QiusHhaW5PoE7mLCHFUU22kAvYgVz0PAEZBnm13J+xw=
+			rCdWNKiNcj6Muy60rwLRDjAVVJt2kJyn8TazoKx4aZc=
 			</data>
 		</dict>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NSFbISeYc4bAzv1uA+dG5ZDB1bmtiMKx80MA/KV+OpI=
+			tUhx2HRZse5a+tb4w8s0CkhqSqLrpJpri/ZH9lRTLpU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
