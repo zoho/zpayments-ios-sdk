@@ -10,11 +10,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H7gPDoCTC1mzSASzFlAv8vzamX8=
+		6pB7Dpa4XvMZwV3G7GLY2907duQ=
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		xi3vnyDJTF5IQ7UNgvU1L5l0U2s=
+		mcR9qQ+vf1b2w2cLpcj9F7Bj9zI=
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3+H0sZGYFbLh+3sg+Z5OZli3h7s=
+		4ix1MCZXslbu2SwPpvlPyJgU4SM=
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xi3vnyDJTF5IQ7UNgvU1L5l0U2s=
+		mcR9qQ+vf1b2w2cLpcj9F7Bj9zI=
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s3qJ89h7fh9iDE25AsYmKXugvOM=
+		o1cS1cK6FqpQgXHbUILrwmxVKGo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rCdWNKiNcj6Muy60rwLRDjAVVJt2kJyn8TazoKx4aZc=
+			6NfAwWmLMjAH6VmAqi1acnqJWz2+xoqyfHIov+SNOUk=
 			</data>
 		</dict>
 		<key>Modules/ZohoPayments.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3bbju0dqEbnaEwd9iLR5CVZlhGHFYDNEqkmVKlqLHzE=
+			B4uUoR//FiO6sIoFdXk1ZdD1LY5ztsvGeXDB3v+Ie9E=
 			</data>
 		</dict>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rCdWNKiNcj6Muy60rwLRDjAVVJt2kJyn8TazoKx4aZc=
+			6NfAwWmLMjAH6VmAqi1acnqJWz2+xoqyfHIov+SNOUk=
 			</data>
 		</dict>
 		<key>Modules/ZohoPayments.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tUhx2HRZse5a+tb4w8s0CkhqSqLrpJpri/ZH9lRTLpU=
+			/5+MOvl9AxvzbxEIfTDcZEFqjEjVLjFXWlcuenyMorc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
